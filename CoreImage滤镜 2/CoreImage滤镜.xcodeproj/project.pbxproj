@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8356C5991DA734AF002991D7 /* 尖角箭头-上.png in Resources */ = {isa = PBXBuildFile; fileRef = 8356C5981DA734AF002991D7 /* 尖角箭头-上.png */; };
+		8356C59D1DA745E5002991D7 /* 尖角箭头-左.png in Resources */ = {isa = PBXBuildFile; fileRef = 8356C59C1DA745E5002991D7 /* 尖角箭头-左.png */; };
+		835D9A531D81B6C700779788 /* XIU_ImageProcessingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D9A511D81B6C700779788 /* XIU_ImageProcessingVC.m */; };
+		835D9A541D81B6C700779788 /* XIU_ImageProcessingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835D9A521D81B6C700779788 /* XIU_ImageProcessingVC.xib */; };
+		835D9A591D82458000779788 /* XIU_EditImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D9A581D82458000779788 /* XIU_EditImageModel.m */; };
+		835D9A701D82921700779788 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835D9A6F1D82921700779788 /* OpenGLES.framework */; };
+		835D9A871D829AFC00779788 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D9A861D829AFC00779788 /* ImageUtil.m */; };
+		835D9A891D82AA7600779788 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835D9A881D82AA7600779788 /* GLKit.framework */; };
+		8385567A1D83A08400C38C6E /* XIU_MainSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 838556791D83A08400C38C6E /* XIU_MainSliderView.m */; };
+		8385567F1D84017E00C38C6E /* XIU_EditImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385567E1D84017E00C38C6E /* XIU_EditImageManager.m */; };
+		83AC2C921D8148C000FB3CDF /* XIU_EditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2C911D8148C000FB3CDF /* XIU_EditView.m */; };
+		83B03DEE1DA6579B00C1BD8E /* XIU_PictureSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B03DE71DA6579B00C1BD8E /* XIU_PictureSelectorViewController.m */; };
+		83B03DEF1DA6579B00C1BD8E /* XIU_PictureSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B03DE81DA6579B00C1BD8E /* XIU_PictureSelectorViewController.xib */; };
+		83B03DF01DA6579B00C1BD8E /* XIU_AssetsLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B03DEA1DA6579B00C1BD8E /* XIU_AssetsLibraryManager.m */; };
+		83B03DF11DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B03DEC1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.m */; };
+		83B03DF21DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B03DED1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.xib */; };
+		83B03DF61DA657A300C1BD8E /* XIU_PickerImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B03DF41DA657A300C1BD8E /* XIU_PickerImageCollectionCell.m */; };
+		83B03DF71DA657A300C1BD8E /* XIU_PickerImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B03DF51DA657A300C1BD8E /* XIU_PickerImageCollectionCell.xib */; };
+		83B03DFA1DA657B200C1BD8E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B03DF91DA657B200C1BD8E /* AssetsLibrary.framework */; };
+		FA3904D01D7517A600FA025A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3904CF1D7517A600FA025A /* main.m */; };
+		FA3904D31D7517A600FA025A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3904D21D7517A600FA025A /* AppDelegate.m */; };
+		FA3904D61D7517A600FA025A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3904D51D7517A600FA025A /* ViewController.m */; };
+		FA3904D91D7517A600FA025A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3904D71D7517A600FA025A /* Main.storyboard */; };
+		FA3904DB1D7517A600FA025A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3904DA1D7517A600FA025A /* Assets.xcassets */; };
+		FA3904DE1D7517A600FA025A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3904DC1D7517A600FA025A /* LaunchScreen.storyboard */; };
+		FA3904E91D7517A600FA025A /* CoreImage__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3904E81D7517A600FA025A /* CoreImage__Tests.m */; };
+		FA3904F41D7517A600FA025A /* CoreImage__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3904F31D7517A600FA025A /* CoreImage__UITests.m */; };
+		FA3905021D7517E500FA025A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3905011D7517E500FA025A /* CoreImage.framework */; };
+		FAF601FA1D81116100B3A4BF /* XIU_FiterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF601F61D81116100B3A4BF /* XIU_FiterView.m */; };
+		FAF601FF1D81122400B3A4BF /* XIUImageMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF601FE1D81122400B3A4BF /* XIUImageMainButton.m */; };
+		FAF602021D81131100B3A4BF /* XIU_FiterImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF602011D81131100B3A4BF /* XIU_FiterImageModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3904E51D7517A600FA025A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3904C31D7517A500FA025A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3904CA1D7517A500FA025A;
+			remoteInfo = "CoreImage滤镜";
+		};
+		FA3904F01D7517A600FA025A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3904C31D7517A500FA025A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3904CA1D7517A500FA025A;
+			remoteInfo = "CoreImage滤镜";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8356C5981DA734AF002991D7 /* 尖角箭头-上.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "尖角箭头-上.png"; path = "Choose Picture/Controller/尖角箭头-上.png"; sourceTree = "<group>"; };
+		8356C59C1DA745E5002991D7 /* 尖角箭头-左.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "尖角箭头-左.png"; sourceTree = "<group>"; };
+		835D9A501D81B6C700779788 /* XIU_ImageProcessingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_ImageProcessingVC.h; sourceTree = "<group>"; };
+		835D9A511D81B6C700779788 /* XIU_ImageProcessingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_ImageProcessingVC.m; sourceTree = "<group>"; };
+		835D9A521D81B6C700779788 /* XIU_ImageProcessingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIU_ImageProcessingVC.xib; sourceTree = "<group>"; };
+		835D9A571D82458000779788 /* XIU_EditImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_EditImageModel.h; sourceTree = "<group>"; };
+		835D9A581D82458000779788 /* XIU_EditImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_EditImageModel.m; sourceTree = "<group>"; };
+		835D9A6F1D82921700779788 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		835D9A851D829AFC00779788 /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		835D9A861D829AFC00779788 /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		835D9A881D82AA7600779788 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		838556781D83A08400C38C6E /* XIU_MainSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_MainSliderView.h; sourceTree = "<group>"; };
+		838556791D83A08400C38C6E /* XIU_MainSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_MainSliderView.m; sourceTree = "<group>"; };
+		8385567D1D84017E00C38C6E /* XIU_EditImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_EditImageManager.h; sourceTree = "<group>"; };
+		8385567E1D84017E00C38C6E /* XIU_EditImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_EditImageManager.m; sourceTree = "<group>"; };
+		83AC2C901D8148C000FB3CDF /* XIU_EditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_EditView.h; sourceTree = "<group>"; };
+		83AC2C911D8148C000FB3CDF /* XIU_EditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_EditView.m; sourceTree = "<group>"; };
+		83B03DE61DA6579B00C1BD8E /* XIU_PictureSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_PictureSelectorViewController.h; sourceTree = "<group>"; };
+		83B03DE71DA6579B00C1BD8E /* XIU_PictureSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_PictureSelectorViewController.m; sourceTree = "<group>"; };
+		83B03DE81DA6579B00C1BD8E /* XIU_PictureSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIU_PictureSelectorViewController.xib; sourceTree = "<group>"; };
+		83B03DE91DA6579B00C1BD8E /* XIU_AssetsLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_AssetsLibraryManager.h; sourceTree = "<group>"; };
+		83B03DEA1DA6579B00C1BD8E /* XIU_AssetsLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_AssetsLibraryManager.m; sourceTree = "<group>"; };
+		83B03DEB1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_PickerImageCollectionVC.h; sourceTree = "<group>"; };
+		83B03DEC1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_PickerImageCollectionVC.m; sourceTree = "<group>"; };
+		83B03DED1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIU_PickerImageCollectionVC.xib; sourceTree = "<group>"; };
+		83B03DF31DA657A300C1BD8E /* XIU_PickerImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_PickerImageCollectionCell.h; sourceTree = "<group>"; };
+		83B03DF41DA657A300C1BD8E /* XIU_PickerImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_PickerImageCollectionCell.m; sourceTree = "<group>"; };
+		83B03DF51DA657A300C1BD8E /* XIU_PickerImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIU_PickerImageCollectionCell.xib; sourceTree = "<group>"; };
+		83B03DF91DA657B200C1BD8E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FA3904CB1D7517A500FA025A /* CoreImage滤镜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreImage滤镜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3904CF1D7517A600FA025A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA3904D11D7517A600FA025A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA3904D21D7517A600FA025A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA3904D41D7517A600FA025A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA3904D51D7517A600FA025A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA3904D81D7517A600FA025A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3904DA1D7517A600FA025A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3904DD1D7517A600FA025A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3904DF1D7517A600FA025A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3904E41D7517A600FA025A /* CoreImage滤镜Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreImage滤镜Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3904E81D7517A600FA025A /* CoreImage__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreImage__Tests.m; sourceTree = "<group>"; };
+		FA3904EA1D7517A600FA025A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3904EF1D7517A600FA025A /* CoreImage滤镜UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreImage滤镜UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3904F31D7517A600FA025A /* CoreImage__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreImage__UITests.m; sourceTree = "<group>"; };
+		FA3904F51D7517A600FA025A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3905011D7517E500FA025A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		FAF601F51D81116100B3A4BF /* XIU_FiterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_FiterView.h; sourceTree = "<group>"; };
+		FAF601F61D81116100B3A4BF /* XIU_FiterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_FiterView.m; sourceTree = "<group>"; };
+		FAF601FD1D81122400B3A4BF /* XIUImageMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIUImageMainButton.h; sourceTree = "<group>"; };
+		FAF601FE1D81122400B3A4BF /* XIUImageMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIUImageMainButton.m; sourceTree = "<group>"; };
+		FAF602001D81131100B3A4BF /* XIU_FiterImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIU_FiterImageModel.h; sourceTree = "<group>"; };
+		FAF602011D81131100B3A4BF /* XIU_FiterImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIU_FiterImageModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3904C81D7517A500FA025A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B03DFA1DA657B200C1BD8E /* AssetsLibrary.framework in Frameworks */,
+				835D9A891D82AA7600779788 /* GLKit.framework in Frameworks */,
+				835D9A701D82921700779788 /* OpenGLES.framework in Frameworks */,
+				FA3905021D7517E500FA025A /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3904E11D7517A600FA025A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3904EC1D7517A600FA025A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835D9A4F1D81B44D00779788 /* ImageProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				835D9A501D81B6C700779788 /* XIU_ImageProcessingVC.h */,
+				835D9A511D81B6C700779788 /* XIU_ImageProcessingVC.m */,
+				835D9A521D81B6C700779788 /* XIU_ImageProcessingVC.xib */,
+			);
+			path = ImageProcessing;
+			sourceTree = "<group>";
+		};
+		835D9A551D81B6F100779788 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		835D9A561D81B70200779788 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				835D9A571D82458000779788 /* XIU_EditImageModel.h */,
+				835D9A581D82458000779788 /* XIU_EditImageModel.m */,
+				8385567D1D84017E00C38C6E /* XIU_EditImageManager.h */,
+				8385567E1D84017E00C38C6E /* XIU_EditImageManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		835D9A5A1D8281EC00779788 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				835D9A851D829AFC00779788 /* ImageUtil.h */,
+				835D9A861D829AFC00779788 /* ImageUtil.m */,
+				838556781D83A08400C38C6E /* XIU_MainSliderView.h */,
+				838556791D83A08400C38C6E /* XIU_MainSliderView.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		83B03DE21DA6578A00C1BD8E /* Choose Picture */ = {
+			isa = PBXGroup;
+			children = (
+				83B03DE31DA6578A00C1BD8E /* Controller */,
+				83B03DE41DA6578A00C1BD8E /* Model */,
+				83B03DE51DA6578A00C1BD8E /* View */,
+			);
+			path = "Choose Picture";
+			sourceTree = "<group>";
+		};
+		83B03DE31DA6578A00C1BD8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83B03DE61DA6579B00C1BD8E /* XIU_PictureSelectorViewController.h */,
+				83B03DE71DA6579B00C1BD8E /* XIU_PictureSelectorViewController.m */,
+				83B03DE81DA6579B00C1BD8E /* XIU_PictureSelectorViewController.xib */,
+				83B03DE91DA6579B00C1BD8E /* XIU_AssetsLibraryManager.h */,
+				83B03DEA1DA6579B00C1BD8E /* XIU_AssetsLibraryManager.m */,
+				83B03DEB1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.h */,
+				83B03DEC1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.m */,
+				83B03DED1DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		83B03DE41DA6578A00C1BD8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83B03DE51DA6578A00C1BD8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83B03DF31DA657A300C1BD8E /* XIU_PickerImageCollectionCell.h */,
+				83B03DF41DA657A300C1BD8E /* XIU_PickerImageCollectionCell.m */,
+				83B03DF51DA657A300C1BD8E /* XIU_PickerImageCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83B03DF81DA657B200C1BD8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B03DF91DA657B200C1BD8E /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3904C21D7517A500FA025A = {
+			isa = PBXGroup;
+			children = (
+				835D9A881D82AA7600779788 /* GLKit.framework */,
+				835D9A6F1D82921700779788 /* OpenGLES.framework */,
+				FA3905011D7517E500FA025A /* CoreImage.framework */,
+				FA3904CD1D7517A600FA025A /* CoreImage滤镜 */,
+				FA3904E71D7517A600FA025A /* CoreImage滤镜Tests */,
+				FA3904F21D7517A600FA025A /* CoreImage滤镜UITests */,
+				FA3904CC1D7517A500FA025A /* Products */,
+				83B03DF81DA657B200C1BD8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3904CC1D7517A500FA025A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3904CB1D7517A500FA025A /* CoreImage滤镜.app */,
+				FA3904E41D7517A600FA025A /* CoreImage滤镜Tests.xctest */,
+				FA3904EF1D7517A600FA025A /* CoreImage滤镜UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3904CD1D7517A600FA025A /* CoreImage滤镜 */ = {
+			isa = PBXGroup;
+			children = (
+				8356C59C1DA745E5002991D7 /* 尖角箭头-左.png */,
+				8356C5981DA734AF002991D7 /* 尖角箭头-上.png */,
+				83B03DE21DA6578A00C1BD8E /* Choose Picture */,
+				835D9A5A1D8281EC00779788 /* Tool */,
+				835D9A4F1D81B44D00779788 /* ImageProcessing */,
+				FAF601FC1D81117B00B3A4BF /* Edit */,
+				FAF601F11D81116100B3A4BF /* Filter */,
+				FA3904D11D7517A600FA025A /* AppDelegate.h */,
+				FA3904D21D7517A600FA025A /* AppDelegate.m */,
+				FA3904D41D7517A600FA025A /* ViewController.h */,
+				FA3904D51D7517A600FA025A /* ViewController.m */,
+				FA3904D71D7517A600FA025A /* Main.storyboard */,
+				FA3904DA1D7517A600FA025A /* Assets.xcassets */,
+				FA3904DC1D7517A600FA025A /* LaunchScreen.storyboard */,
+				FA3904DF1D7517A600FA025A /* Info.plist */,
+				FA3904CE1D7517A600FA025A /* Supporting Files */,
+			);
+			path = "CoreImage滤镜";
+			sourceTree = "<group>";
+		};
+		FA3904CE1D7517A600FA025A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3904CF1D7517A600FA025A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA3904E71D7517A600FA025A /* CoreImage滤镜Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3904E81D7517A600FA025A /* CoreImage__Tests.m */,
+				FA3904EA1D7517A600FA025A /* Info.plist */,
+			);
+			path = "CoreImage滤镜Tests";
+			sourceTree = "<group>";
+		};
+		FA3904F21D7517A600FA025A /* CoreImage滤镜UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3904F31D7517A600FA025A /* CoreImage__UITests.m */,
+				FA3904F51D7517A600FA025A /* Info.plist */,
+			);
+			path = "CoreImage滤镜UITests";
+			sourceTree = "<group>";
+		};
+		FAF601F11D81116100B3A4BF /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				835D9A551D81B6F100779788 /* Model */,
+				FAF601F51D81116100B3A4BF /* XIU_FiterView.h */,
+				FAF601F61D81116100B3A4BF /* XIU_FiterView.m */,
+				FAF601FD1D81122400B3A4BF /* XIUImageMainButton.h */,
+				FAF601FE1D81122400B3A4BF /* XIUImageMainButton.m */,
+				FAF602001D81131100B3A4BF /* XIU_FiterImageModel.h */,
+				FAF602011D81131100B3A4BF /* XIU_FiterImageModel.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		FAF601FC1D81117B00B3A4BF /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				835D9A561D81B70200779788 /* Model */,
+				83AC2C901D8148C000FB3CDF /* XIU_EditView.h */,
+				83AC2C911D8148C000FB3CDF /* XIU_EditView.m */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3904CA1D7517A500FA025A /* CoreImage滤镜 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3904F81D7517A600FA025A /* Build configuration list for PBXNativeTarget "CoreImage滤镜" */;
+			buildPhases = (
+				FA3904C71D7517A500FA025A /* Sources */,
+				FA3904C81D7517A500FA025A /* Frameworks */,
+				FA3904C91D7517A500FA025A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreImage滤镜";
+			productName = "CoreImage滤镜";
+			productReference = FA3904CB1D7517A500FA025A /* CoreImage滤镜.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3904E31D7517A600FA025A /* CoreImage滤镜Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3904FB1D7517A600FA025A /* Build configuration list for PBXNativeTarget "CoreImage滤镜Tests" */;
+			buildPhases = (
+				FA3904E01D7517A600FA025A /* Sources */,
+				FA3904E11D7517A600FA025A /* Frameworks */,
+				FA3904E21D7517A600FA025A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3904E61D7517A600FA025A /* PBXTargetDependency */,
+			);
+			name = "CoreImage滤镜Tests";
+			productName = "CoreImage滤镜Tests";
+			productReference = FA3904E41D7517A600FA025A /* CoreImage滤镜Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3904EE1D7517A600FA025A /* CoreImage滤镜UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3904FE1D7517A600FA025A /* Build configuration list for PBXNativeTarget "CoreImage滤镜UITests" */;
+			buildPhases = (
+				FA3904EB1D7517A600FA025A /* Sources */,
+				FA3904EC1D7517A600FA025A /* Frameworks */,
+				FA3904ED1D7517A600FA025A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3904F11D7517A600FA025A /* PBXTargetDependency */,
+			);
+			name = "CoreImage滤镜UITests";
+			productName = "CoreImage滤镜UITests";
+			productReference = FA3904EF1D7517A600FA025A /* CoreImage滤镜UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3904C31D7517A500FA025A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XIU;
+				TargetAttributes = {
+					FA3904CA1D7517A500FA025A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CW3E3JPQQ5;
+					};
+					FA3904E31D7517A600FA025A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA3904CA1D7517A500FA025A;
+					};
+					FA3904EE1D7517A600FA025A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA3904CA1D7517A500FA025A;
+					};
+				};
+			};
+			buildConfigurationList = FA3904C61D7517A500FA025A /* Build configuration list for PBXProject "CoreImage滤镜" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3904C21D7517A500FA025A;
+			productRefGroup = FA3904CC1D7517A500FA025A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3904CA1D7517A500FA025A /* CoreImage滤镜 */,
+				FA3904E31D7517A600FA025A /* CoreImage滤镜Tests */,
+				FA3904EE1D7517A600FA025A /* CoreImage滤镜UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3904C91D7517A500FA025A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356C59D1DA745E5002991D7 /* 尖角箭头-左.png in Resources */,
+				83B03DF71DA657A300C1BD8E /* XIU_PickerImageCollectionCell.xib in Resources */,
+				835D9A541D81B6C700779788 /* XIU_ImageProcessingVC.xib in Resources */,
+				FA3904DE1D7517A600FA025A /* LaunchScreen.storyboard in Resources */,
+				FA3904DB1D7517A600FA025A /* Assets.xcassets in Resources */,
+				83B03DEF1DA6579B00C1BD8E /* XIU_PictureSelectorViewController.xib in Resources */,
+				8356C5991DA734AF002991D7 /* 尖角箭头-上.png in Resources */,
+				FA3904D91D7517A600FA025A /* Main.storyboard in Resources */,
+				83B03DF21DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3904E21D7517A600FA025A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3904ED1D7517A600FA025A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3904C71D7517A500FA025A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8385567A1D83A08400C38C6E /* XIU_MainSliderView.m in Sources */,
+				835D9A531D81B6C700779788 /* XIU_ImageProcessingVC.m in Sources */,
+				FA3904D61D7517A600FA025A /* ViewController.m in Sources */,
+				FAF602021D81131100B3A4BF /* XIU_FiterImageModel.m in Sources */,
+				FA3904D31D7517A600FA025A /* AppDelegate.m in Sources */,
+				FA3904D01D7517A600FA025A /* main.m in Sources */,
+				83B03DEE1DA6579B00C1BD8E /* XIU_PictureSelectorViewController.m in Sources */,
+				8385567F1D84017E00C38C6E /* XIU_EditImageManager.m in Sources */,
+				FAF601FF1D81122400B3A4BF /* XIUImageMainButton.m in Sources */,
+				835D9A591D82458000779788 /* XIU_EditImageModel.m in Sources */,
+				FAF601FA1D81116100B3A4BF /* XIU_FiterView.m in Sources */,
+				83B03DF01DA6579B00C1BD8E /* XIU_AssetsLibraryManager.m in Sources */,
+				83B03DF61DA657A300C1BD8E /* XIU_PickerImageCollectionCell.m in Sources */,
+				83B03DF11DA6579B00C1BD8E /* XIU_PickerImageCollectionVC.m in Sources */,
+				83AC2C921D8148C000FB3CDF /* XIU_EditView.m in Sources */,
+				835D9A871D829AFC00779788 /* ImageUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3904E01D7517A600FA025A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3904E91D7517A600FA025A /* CoreImage__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3904EB1D7517A600FA025A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3904F41D7517A600FA025A /* CoreImage__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3904E61D7517A600FA025A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3904CA1D7517A500FA025A /* CoreImage滤镜 */;
+			targetProxy = FA3904E51D7517A600FA025A /* PBXContainerItemProxy */;
+		};
+		FA3904F11D7517A600FA025A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3904CA1D7517A500FA025A /* CoreImage滤镜 */;
+			targetProxy = FA3904F01D7517A600FA025A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3904D71D7517A600FA025A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3904D81D7517A600FA025A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3904DC1D7517A600FA025A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3904DD1D7517A600FA025A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3904F61D7517A600FA025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA3904F71D7517A600FA025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3904F91D7517A600FA025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "CoreImage滤镜/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreImage--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA3904FA1D7517A600FA025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "CoreImage滤镜/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreImage--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA3904FC1D7517A600FA025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CoreImage滤镜Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreImage--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreImage滤镜.app/CoreImage滤镜";
+			};
+			name = Debug;
+		};
+		FA3904FD1D7517A600FA025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CoreImage滤镜Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreImage--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreImage滤镜.app/CoreImage滤镜";
+			};
+			name = Release;
+		};
+		FA3904FF1D7517A600FA025A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CoreImage滤镜UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreImage--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CoreImage滤镜";
+			};
+			name = Debug;
+		};
+		FA3905001D7517A600FA025A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CoreImage滤镜UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreImage--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CoreImage滤镜";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3904C61D7517A500FA025A /* Build configuration list for PBXProject "CoreImage滤镜" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3904F61D7517A600FA025A /* Debug */,
+				FA3904F71D7517A600FA025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3904F81D7517A600FA025A /* Build configuration list for PBXNativeTarget "CoreImage滤镜" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3904F91D7517A600FA025A /* Debug */,
+				FA3904FA1D7517A600FA025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3904FB1D7517A600FA025A /* Build configuration list for PBXNativeTarget "CoreImage滤镜Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3904FC1D7517A600FA025A /* Debug */,
+				FA3904FD1D7517A600FA025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3904FE1D7517A600FA025A /* Build configuration list for PBXNativeTarget "CoreImage滤镜UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3904FF1D7517A600FA025A /* Debug */,
+				FA3905001D7517A600FA025A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3904C31D7517A500FA025A /* Project object */;
+}
